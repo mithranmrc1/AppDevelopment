@@ -1,0 +1,79 @@
+body {
+  background-color: #faf5f5; 
+  margin: 0;
+  padding: 10;
+  background-image:url("./Asset/noise-pollution2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.Logo {
+  background-image: url(./logo.svg);
+}
+
+.login-containers {
+  
+  text-align: left;
+  margin-top: 100px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(189, 143, 143, 0.2);
+  padding: 50px;
+  width: 400px;
+  margin: 0 auto;
+  align-content: center;
+  opacity: 80%;
+  background-color:#faf5f5;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.p3 {
+  font-family: "Copperplate", "Courier New", monospace;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f33f2f;
+  border: none;
+  border-radius: 4px;
+  color: #f6efef;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #07050a;
+}
