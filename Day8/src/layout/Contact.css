@@ -1,0 +1,62 @@
+/* ... other styles ... */
+
+.continue-btn {
+    /* Style for the continue button */
+    position: absolute; /* Absolute positioning relative to the .background-image */
+    top: 10px; /* Set to the top with a 10px offset */
+    left: 10px; /* Set to the left with a 10px offset */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.continue-btn:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+.continue-btn:hover {
+    background-color: #555;
+}
+
+.background-image {
+    display: flex; /* Enable flex layout */
+    justify-content: center; /* Horizontally align children in the center */
+    align-items: center; /* Vertically align children in the center */
+    height: 100vh; /* Take full viewport height */
+}
+
+.left-content {
+    width: 50%;
+    padding: 20px; /* Adjust as needed */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px; /* Adjust as needed */
+    text-align: center; /* Center the text inside */
+}
+
+.left-content h2 {
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    margin-bottom: 20px;
+}
+
+.right-content {
+    width: 50%;
+    padding: 50px;
+}
+
+/* ... rest of the styles ... */

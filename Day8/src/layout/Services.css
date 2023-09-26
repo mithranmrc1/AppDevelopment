@@ -1,0 +1,97 @@
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 30px; /* Adjust the gap between grid items (add space here) */
+    justify-items: center; /* Center-align the items horizontally */
+    opacity: 0.9;
+  }
+  
+  /* Grid Items */
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+  
+    background-size: cover;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: auto; /* Change from fixed height to auto */
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; /* Display text below the image */
+    align-items: center; /* Center-align text horizontally */
+    position: relative; /* Ensure the button is positioned relative to the item */
+  }
+  
+  img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+    height: auto; /* Allow images to adjust their height */
+    max-height: 200px; /* Limit the image height if needed */
+  }
+  
+  img:hover{
+    transform: scale(1.12);
+  }
+  /* Custom Heading Style */
+  .custom-h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    /* Add more styles as needed */
+  }
+  
+  /* Text Style */
+  .r {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px; /* Add padding to create space between text and image */
+  }
+  
+  /* Add to Cart Button Style */
+  .add-to-cart {
+    position: absolute;
+    bottom: 10px; /* Adjust the button's vertical position */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  /* Background and Page Container */
+  .b {
+    min-height: 100vh; /* Set a minimum height to fill the viewport */
+    display: flex;
+    flex-direction: column; /* Make the container a flex container */
+    justify-content: space-between; /* Push content to the top and bottom */
+    overflow: hidden;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  .head{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }

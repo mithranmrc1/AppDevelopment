@@ -1,0 +1,144 @@
+.feedback-form {
+    max-width: 1250px; /* Set a maximum width for the form container */
+    margin: 10 auto; /* Center the form horizontally */
+    padding: 40px; /* Add more padding to the form container */
+    background-color: #f5f5f5;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 100px; /* Move the form down by 100px */
+  }
+  
+  .feedback-heading {
+    margin-bottom: 100px; /* Add more space below the heading */
+  }
+  
+  .feedback-input {
+    margin-bottom: 200px; /* Add more space below the input elements */
+    padding: 100px; /* Add padding to the input elements */
+    width: 500%; /* Make input elements expand to full width */
+  }
+  
+  
+  .bu {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  .f{
+    color: rgb(31, 8, 132);
+  }
+.confirmation-message {
+    padding: 10px;
+    background-color: #4caf50; /* Green background color for the confirmation message */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .rectangle {
+    position: absolute;
+    width: 50%;
+    height:50px; /* Adjust the height of the rectangle as needed */
+    background-color: rgb(31, 8, 132); /* Rectangle background color */
+     /* Adjust the animation duration and type as needed */
+  }
+  
+  
+  .heading {
+    font-family:'Courier New', Courier, monospace; /* Specify the font family */
+   /* Specify the font size */
+  font-weight: bold; /* Specify the font weight (e.g., normal, bold, etc.) */
+  font-style: italic;
+    text-align: center;
+    position: absolute;
+  
+    height: 30px;
+    background: none;
+   
+    /* Add padding to the heading as needed */
+    z-index: 1;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f5f0f0; /* Ensure the heading is above the rectangle */
+  }
+  
+  @keyframes moveRectangle {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100%); /* Move the rectangle to the right */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+    
+  
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .t{
+    font-family:'Courier New', Courier, monospace; /* Specify the font family */
+   /* Specify the font size */
+  font-weight: bold; /* Specify the font weight (e.g., normal, bold, etc.) */
+  font-style: italic;
+    text-align: center;
+    position: absolute;
+  color: black;
+    height: 30px;
+    font-size: large;
+    background: none;
+  }
+
+  .rectangle .continue-btn{
+    color: #b12222;
+    margin-bottom: 10px;
+  }
+  
